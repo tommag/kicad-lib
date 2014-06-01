@@ -1,0 +1,53 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2450BM14A002
+D Johanson integrated balun+filter, optimized for Nordic nRF24
+$ENDCMP
+#
+$CMP ANT
+D RF antenna (integrated)
+$ENDCMP
+#
+$CMP BAL-NRF01D3
+D Integrated balun for use with NRF51822 (QFN48 package)
+$ENDCMP
+#
+$CMP CRYSTAL_SMD_4PIN
+D 4-pin SMD crystal
+$ENDCMP
+#
+$CMP MCP73832
+D 1S Li-Ion / Li-Po Charger (open drain status output) in SOT-23 package
+$ENDCMP
+#
+$CMP MIC2860
+D Micrel MIC2860 - High efficiency WLED driver w/ PWM (SC-70/SOT-23)
+$ENDCMP
+#
+$CMP MMA8652
+D Freescale MMA8652 3-axis accelerometer (10-pin DFN)
+$ENDCMP
+#
+$CMP NRF51822QF
+D Nordic nRF51822 :  ARM Cortex-M0 with integrated radio for Bluetooth Low Energy - QFN48 package
+$ENDCMP
+#
+$CMP SWD_CONN
+D SWD connector for ARM Cortex-M debug access
+K CONN
+$ENDCMP
+#
+$CMP TC1016-SC70
+D Microchip TC1016 - 80 mA LDO voltage regulator (SC-70)
+$ENDCMP
+#
+$CMP TC_SWD
+D Tag-Connect small footprint SWD connector
+$ENDCMP
+#
+$CMP USB-MICRO-B
+D USB Micro B connector
+K USB Micro B, USB
+$ENDCMP
+#
+#End Doc Library
