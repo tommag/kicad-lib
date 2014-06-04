@@ -1,0 +1,13 @@
+(module Fiducial_very_small_modern (layer F.Cu)
+  (descr "Very small modern type fiducial (Adafruit recommendations)")
+  (tags Fiducial)
+  (solder_mask_margin 1)
+  (fp_text reference FID (at 0 -3.556) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value Fiducial_very_small_modern (at 0 2.032) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad ~ connect circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.5) (solder_paste_margin -0.5) (clearance 0.5))
+)
