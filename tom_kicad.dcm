@@ -16,6 +16,10 @@ $CMP CRYSTAL_SMD_4PIN
 D 4-pin SMD crystal
 $ENDCMP
 #
+$CMP LPC11U3x
+D NXP LPC11U3x in QFP48 package - Cortex-M0 MCU with USB 2.0
+$ENDCMP
+#
 $CMP MCP73832
 D 1S Li-Ion / Li-Po Charger (open drain status output) in SOT-23 package
 $ENDCMP
