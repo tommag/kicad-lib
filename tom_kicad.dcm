@@ -32,6 +32,11 @@ $CMP MMA8652
 D Freescale MMA8652 3-axis accelerometer (10-pin DFN)
 $ENDCMP
 #
+$CMP MS5607
+D Micro Altimeter Module DeltaH = 20cm
+K altimeter
+$ENDCMP
+#
 $CMP NRF51822QF
 D Nordic nRF51822 :  ARM Cortex-M0 with integrated radio for Bluetooth Low Energy - QFN48 package
 $ENDCMP
