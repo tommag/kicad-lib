@@ -41,6 +41,10 @@ D SWD connector for ARM Cortex-M debug access
 K CONN
 $ENDCMP
 #
+$CMP TC1015
+D 100 mA CMOS LDO with Shutdown and Reference Bypass - SOT23 package
+$ENDCMP
+#
 $CMP TC1016-SC70
 D Microchip TC1016 - 80 mA LDO voltage regulator (SC-70)
 $ENDCMP

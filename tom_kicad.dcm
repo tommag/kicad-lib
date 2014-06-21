@@ -21,7 +21,7 @@ D NXP LPC11U3x in QFP48 package - Cortex-M0 MCU with USB 2.0
 $ENDCMP
 #
 $CMP MCP73832
-D 1S Li-Ion / Li-Po Charger (open drain status output) in SOT-23 package
+D 1S Li-Ion / Li-Po Charger (open drain status output MCP73832/Tri-state MCP73831) in SOT-23 package
 $ENDCMP
 #
 $CMP MIC2860
@@ -39,6 +39,10 @@ $ENDCMP
 $CMP SWD_CONN
 D SWD connector for ARM Cortex-M debug access
 K CONN
+$ENDCMP
+#
+$CMP TC1015
+D 100 mA CMOS LDO with Shutdown and Reference Bypass - SOT23 package
 $ENDCMP
 #
 $CMP TC1016-SC70
