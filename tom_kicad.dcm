@@ -8,6 +8,10 @@ $CMP ANT
 D RF antenna (integrated)
 $ENDCMP
 #
+$CMP AT42QT1070
+D capacitive sensor
+$ENDCMP
+#
 $CMP BAL-NRF01D3
 D Integrated balun for use with NRF51822 (QFN48 package)
 $ENDCMP
