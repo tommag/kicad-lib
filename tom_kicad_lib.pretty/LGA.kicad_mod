@@ -1,4 +1,7 @@
 (module LGA (layer F.Cu) (tedit 53AA99F1)
+  (descr "MPU9150 - 9DOF IMU ")
+  (clearance 0.07)
+  (attr smd)
   (fp_text reference U7 (at -0.05 4.4) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
