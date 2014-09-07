@@ -4,6 +4,10 @@ $CMP 2450BM14A002
 D Johanson integrated balun+filter, optimized for Nordic nRF24
 $ENDCMP
 #
+$CMP 2450FB15L0001
+D Johanson integrated balun+filter, optimized for AT86RF230/ATmega256RFR
+$ENDCMP
+#
 $CMP ANT
 D RF antenna (integrated)
 $ENDCMP
@@ -12,12 +16,20 @@ $CMP AT42QT1070
 D capacitive sensor
 $ENDCMP
 #
+$CMP ATmega256RFR2
+D Atmel ATmega256RFR2 : Zigbee/802.15.4 wireless MCU, package QFN64+1, 0.5mm pitch
+$ENDCMP
+#
 $CMP BAL-NRF01D3
 D Integrated balun for use with NRF51822 (QFN48 package)
 $ENDCMP
 #
 $CMP CRYSTAL_SMD_4PIN
 D 4-pin SMD crystal
+$ENDCMP
+#
+$CMP LM3405A
+D LM3405A 1A constant current buck LED driver - TSOT6 package
 $ENDCMP
 #
 $CMP LPC11U3x
@@ -47,6 +59,10 @@ $ENDCMP
 #
 $CMP NRF51822QF
 D Nordic nRF51822 :  ARM Cortex-M0 with integrated radio for Bluetooth Low Energy - QFN48 package
+$ENDCMP
+#
+$CMP PTC_FUSE
+D PTC resettable fuse
 $ENDCMP
 #
 $CMP SWD_CONN
