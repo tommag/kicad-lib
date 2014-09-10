@@ -32,6 +32,17 @@ $CMP LM3405A
 D LM3405A 1A constant current buck LED driver - TSOT6 package
 $ENDCMP
 #
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LP2950
+D LP2950 or regulator w/ OGI pinout
+K POWER REGUL
+$ENDCMP
+#
 $CMP LPC11U3x
 D NXP LPC11U3x in QFP48 package - Cortex-M0 MCU with USB 2.0
 $ENDCMP
@@ -63,6 +74,30 @@ $ENDCMP
 #
 $CMP PTC_FUSE
 D PTC resettable fuse
+$ENDCMP
+#
+$CMP SP3481CN
+D SP3481CN, 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3481EN
+D SP3481EN, Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3485CN
+D SP3485CN, 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3485EN
+D SP3485EN, Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 $CMP SWD_CONN
